@@ -20,7 +20,6 @@ Sub GetNumOfStation()
     
     Set wbDst = Workbooks("データ分析まとめ.xlsm")
     Set wbOrg = Workbooks(wbDst.Worksheets("マクロ").Range("D3").Value)
-    Set wsDst = wbDst.Worksheets("結果")
     Set wbOrg = wbOrg.Worksheets("CHK打刻 DB")
     
     With wsOrg
